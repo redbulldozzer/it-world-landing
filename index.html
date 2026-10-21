@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT World Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Mulish:wght@400;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./assets/candidate-b.png">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="#" aria-label="IT World Agency">
+          <span class="brand__title">IT WORLD</span>
+          <span class="brand__subtitle">agency</span>
+        </a>
+
+        <button
+          class="site-header__toggle"
+          type="button"
+          aria-label="Открыть меню"
+          aria-controls="site-header-actions"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="site-header__actions" id="site-header-actions">
+          <a class="pill pill--ghost" href="mailto:employee@example.invalid">employee@example.invalid</a>
+          <a class="button button--sm" href="https://example.invalid/">Обсудить вакансию</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="container">
+          <article class="hero-card">
+            <div class="hero-photo" aria-hidden="true">
+              <img src="assets/candidate-e.png" alt="" />
+            </div>
+
+            <div class="hero-frame" aria-hidden="true">
+              <img class="hero-frame__middle" src="assets/figma-frame/frame-middle.svg" alt="" />
+              <img class="hero-frame__bottom" src="assets/figma-frame/frame-bottom.svg" alt="" />
+              <img class="hero-frame__side hero-frame__side--left" src="assets/figma-frame/frame-left.svg" alt="" />
+              <img class="hero-frame__side hero-frame__side--right" src="assets/figma-frame/frame-right.svg" alt="" />
+            </div>
+
+            <div class="hero-vacancy-cta">
+              <img class="hero-vacancy-backplate" src="assets/figma-frame/button-backplate.svg" alt="" aria-hidden="true" />
+              <a class="hero-vacancy-button" href="#vacancies">Смотреть вакансии</a>
+            </div>
+
+            <h1 class="hero-title">
+              <span class="hero-title__line"><span class="accent">Строим</span> команду,</span>
+              <span class="hero-title__line hero-title__line--middle">
+                <span class="accent">которая задает</span>
+              </span>
+              <span class="hero-title__line">тренды <span class="accent">в digital</span></span>
+            </h1>
+
+            <div class="hero-award-card">
+              <span>Самая крупная<br />команда<br />в СНГ</span>
+            </div>
+
+            <img class="hero-trophy" src="assets/candidate-b.png" alt="" aria-hidden="true" />
+            <img class="deco deco--hero-spiral" src="assets/candidate-a.png" alt="" aria-hidden="true" />
+          </article>
+        </div>
+      </section>
+
+      <section class="values section section--accent">
+        <div class="container">
+          <div class="section-head section-head--center reveal">
+            <h2>
+              Разрываем шаблоны,<br />
+              вдохновляя сотрудников<br />
+              на новые вызовы
+            </h2>
+          </div>
+
+          <aside class="values-quote reveal" aria-label="Комментарий HR">
+            <img class="values-quote__avatar" src="assets/values/avatar-2.png" alt="" />
+            <div class="values-quote__text">
+              <strong>Специалист HR</strong>
+              <span>Твое развитие - наша цель!</span>
+            </div>
+            <span class="contact-quote__mark" aria-hidden="true">”</span>
+          </aside>
+
+          <div class="values-grid" aria-label="Ценности IT World">
+            <article class="value-card value-card--accent value-card--one reveal" tabindex="0">
+              <h3 class="value-card__title">Мы такие разные и в этом наша сила</h3>
+              <div class="value-card__hover-content">
+                <p class="value-card__hover-title">Мы такие разные и в этом наша сила</p>
+                <p class="value-card__details">
+                  Мы ценим каждого сотрудника как личность. У каждого свой характер, бэкграунд,
+                  увлечения, мечты и амбиции. И объединив всех в едином коллективе мы поняли,
+                  что для нас нет ничего невозможного.
+                </p>
+              </div>
+              <span class="value-card__arrow" aria-hidden="true"></span>
+            </article>
+            <article class="value-card value-card--dark value-card--two reveal" tabindex="0">
+              <h3 class="value-card__title">Корпоративная культура и ценности</h3>
+              <div class="value-card__hover-content">
+                <p class="value-card__hover-title">Корпоративная культура и ценности</p>
+                <p class="value-card__details">
+                  В IT World мы задаем тренды осознанности и развития. Формируем качественный
+                  подход к культуре, интеграции и обучению сотрудников. Что позволяет нам
+                  доминировать в digital сфере.
+                </p>
+              </div>
+              <span class="value-card__arrow" aria-hidden="true"></span>
+            </article>
+            <article class="value-card value-card--light value-card--three reveal" tabindex="0">
+              <h3 class="value-card__title">Win-win модель роста</h3>
+              <div class="value-card__hover-content">
+                <p class="value-card__hover-title">Win-win модель роста</p>
+                <p class="value-card__details">
+                  Мы понимаем, как важно масштабироваться. И, в отличии от других крупных игроков рынка,
+                  мы заинтересованы в росте своих сотрудников. Десятки самых смелых идей уже переросли
+                  в полноценный бизнес. А также мы присоединили десятки команд, дав им дополнительные
+                  возможности.
+                </p>
+              </div>
+              <span class="value-card__arrow" aria-hidden="true"></span>
+            </article>
+            <article class="value-card value-card--light value-card--four reveal" tabindex="0">
+              <h3 class="value-card__title">Гибкость, скорость и мобильность</h3>
+              <div class="value-card__hover-content">
+                <p class="value-card__hover-title">Гибкость, скорость и мобильность</p>
+                <p class="value-card__details">
+                  Сфера арбитража трафика очень переменчива. И чтобы преуспеть, нам необходимо быть
+                  мобильными, оперативно подстраиваться под новые обстоятельства, оборачивая кризисные
+                  моменты в точки роста. И мы с этим успешно справляемся уже 8 лет.
+                </p>
+              </div>
+              <span class="value-card__arrow" aria-hidden="true"></span>
+            </article>
+            <article class="value-card value-card--accent value-card--five reveal" tabindex="0">
+              <h3 class="value-card__title">Целеполагание и постановка задач</h3>
+              <div class="value-card__hover-content">
+                <p class="value-card__hover-title">Целеполагание и постановка задач</p>
+                <p class="value-card__details">
+                  Мы каждый день нацелены на результат и понимаем как важно держать баланс между
+                  data-driven подходом и креативом. Каждую идею мы подкрепляем глубокой аналитикой
+                  и минимизируем риски ошибок. А совершенные ошибки оцифровываем в бесценный опыт.
+                </p>
+              </div>
+              <span class="value-card__arrow" aria-hidden="true"></span>
+            </article>
+          </div>
+
+          <img class="values-deco values-deco--flower" src="assets/values/flower.png" alt="" aria-hidden="true" />
+          <img class="values-deco values-deco--bottom-spiral" src="assets/values/spiral.png" alt="" aria-hidden="true" />
+        </div>
+      </section>
+
+      <section class="stories section" id="stories">
+        <div class="container">
+          <span class="stories-tag reveal">преимущества</span>
+
+          <aside class="stories-quote reveal" aria-label="Комментарий HR">
+            <img class="stories-quote__avatar" src="assets/stories/hr-anastasia.jpg" alt="" />
+            <div class="stories-quote__text">
+              <strong>Анастасия HR</strong>
+              <span>Мы ждем именно тебя!</span>
+            </div>
+            <span class="stories-quote__mark" aria-hidden="true">”</span>
+          </aside>
+
+          <div class="stories__intro reveal">
+            <h2 class="stories-title">
+              <span>В IT world можно найти</span>
+              <span>занятие по душе и стать</span>
+              <span>лучшим в своём деле</span>
+            </h2>
+          </div>
+
+          <div class="stories-cards">
+            <div class="stories-tape reveal" tabindex="0" aria-label="Истории сотрудников">
+              <div class="stories-tape__track">
+                <article class="story-person-card story-person-card--andrey">
+                  <img class="story-person-card__photo" src="assets/stories/tape/andrey.jpg" alt="Андрей, Sales manager" />
+                  <h3>Андрей, 26<br />Sales manager</h3>
+                  <p>
+                    Искал стабильную работу, чтобы снять квартиру. Спустя полтора года, Андрей - счастливый
+                    обладатель собственной двушки.
+                  </p>
+                </article>
+
+                <article class="story-person-card story-person-card--damir">
+                  <img class="story-person-card__photo" src="assets/stories/tape/damir.jpg" alt="Дамир, TL Sales" />
+                  <h3>Дамир, 25<br />TL Sales</h3>
+                  <p>
+                    Дамир год работал на позиции Sales manager, принес много идей и получил возможность их
+                    реализовать на позиции тимлида. Теперь Дамир открывает новые продукты и направления.
+                    Построил загородный дом.
+                  </p>
+                  <img class="story-person-card__deco story-person-card__deco--flower" src="assets/stories/tape/flower.png" alt="" aria-hidden="true" />
+                </article>
+
+                <article class="story-person-card story-person-card--sergey">
+                  <img class="story-person-card__photo" src="assets/stories/tape/sergey.jpg" alt="Сергей, Designer" />
+                  <h3>Сергей, 24<br />Designer</h3>
+                  <p>
+                    Пришел на позицию Junior-дизайнера, за год повысил грейд до middle+ и собрал целую
+                    коллекцию кроссовок. Сергей - сникерхэд и большой профессионал.
+                  </p>
+                </article>
+
+                <article class="story-person-card story-person-card--anastasia">
+                  <img class="story-person-card__photo" src="assets/stories/tape/anastasia.jpg" alt="Анастасия, TL Копирайтер" />
+                  <h3>Анастасия, 27<br />TL Копирайтер.</h3>
+                  <p>
+                    За 5 месяцев доросла до позиции тимлида, запустила 4 новых продукта, уверенно качающих
+                    в 14 странах. Собрала штат из 20 человек и теперь ходит в офис на каблучках, как
+                    настоящая бизнес-леди.
+                  </p>
+                </article>
+
+                <article class="story-person-card story-person-card--roberto">
+                  <img class="story-person-card__photo" src="assets/stories/tape/roberto.jpg" alt="Роберто, Sales manager" />
+                  <h3>Роберто, 29<br />Sales manager</h3>
+                  <p>
+                    Роберто живет в ритмах сальсы и бочаты. И дарит лучи теплого солнца родной Колумбии
+                    в офисе отдела продаж. Приходите к нам и вы не сможете не двигать бедрами при виде Роберто.
+                  </p>
+                  <img class="story-person-card__deco story-person-card__deco--plane" src="assets/stories/tape/plane.png" alt="" aria-hidden="true" />
+                </article>
+
+                <article class="story-person-card story-person-card--evgeniy">
+                  <img class="story-person-card__photo" src="assets/stories/tape/evgeniy.jpg" alt="Евгений, SMM" />
+                  <h3>Евгений, 30<br />SMM</h3>
+                  <p>
+                    Евгений всегда занимался музыкой и привнес свои навыки в подход к SMM. В итоге его
+                    рилсы с виральными звуками стали залетать, проекты расти.
+                  </p>
+                </article>
+
+                <article class="story-person-card story-person-card--anton">
+                  <img class="story-person-card__photo" src="assets/stories/tape/anton.jpg" alt="Антон, Sales manager" />
+                  <h3>Антон, 26<br />Sales manager</h3>
+                  <p>
+                    Обожает собак и свою зарплату. Мечтает создать свой шелтер, поэтому очень внимательно
+                    работает с каждым клиентом.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="vacancies section" id="vacancies">
+        <div class="container">
+          <div class="vacancies-stage">
+            <div class="vacancies-card reveal">
+              <div class="vacancies-tab">
+                <img src="assets/vacancies/tab-shape.svg" alt="" aria-hidden="true" />
+                <span>вакансии</span>
+              </div>
+
+              <div class="vacancies-card__body">
+                <h2 class="vacancies-title">
+                  <span>Вот мы и нашли друг друга.</span>
+                  <span>Осталось лишь выбрать подходящую тебе вакансию.</span>
+                </h2>
+
+                <nav class="vacancies-pagination" aria-label="Страницы вакансий">
+                  <span class="is-active">1</span>
+                  <span>2</span>
+                  <span>3</span>
+                  <span>4</span>
+                  <span aria-hidden="true">→</span>
+                </nav>
+
+                <div class="vacancies-list" aria-label="Список вакансий">
+                  <a class="vacancy-row" href="https://example.invalid/" target="_blank">
+                    <span>Sales-Manager со знанием английского языка</span>
+                    <span class="vacancy-row__icon" aria-hidden="true">❯</span>
+                  </a>
+                  <a class="vacancy-row" href="#contact">
+                    <span>HR-manager</span>
+                    <span class="vacancy-row__icon" aria-hidden="true">❯</span>
+                  </a>
+                  <a class="vacancy-row" href="https://example.invalid/" target="_blank">
+                    <span>Graphic design</span>
+                    <span class="vacancy-row__icon" aria-hidden="true">❯</span>
+                  </a>
+                  <a class="vacancy-row" href="https://example.invalid/" target="_blank">
+                    <span>Копирайтер со знанием английского языка</span>
+                    <span class="vacancy-row__icon" aria-hidden="true">❯</span>
+                  </a>
+                  <a class="vacancy-row" href="#contact">
+                    <span>Media Buyer FB</span>
+                    <span class="vacancy-row__icon" aria-hidden="true">❯</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="vacancies-action">
+                <span class="vacancies-action__base" aria-hidden="true"></span>
+                <img class="vacancies-action__shape" src="assets/vacancies/button-shape.svg" alt="" aria-hidden="true" />
+                <a class="vacancies-button" href="#contact">Присоединиться к команде</a>
+              </div>
+            </div>
+
+            <img class="vacancies-deco" src="assets/vacancies/flower-side.png" alt="" aria-hidden="true" />
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section">
+        <div class="container">
+          <div class="faq-head reveal">
+            <h2>
+              <span>Готовим специалистов</span>
+              <span>к большой карьере в IT world</span>
+            </h2>
+          </div>
+
+          <div class="faq-stack reveal">
+            <article class="faq-panel faq-panel--accent">
+              <h3>Опыт и компетенции</h3>
+              <p>
+                IT world на рынке уже более 8 лет.<br />
+                Работаем с различными моделями оплаты (CPL, CPA, RS и т. д.) и лучшими условиями
+              </p>
+            </article>
+
+            <article class="faq-panel faq-panel--light">
+              <h3>Наши гео источники</h3>
+              <p>
+                Больший упор делаем на работу с Tier3<br />
+                Приоритет на продукты и бренды: из Индии и Латинской Америки<br />
+                ASO, FB, Google
+              </p>
+            </article>
+
+            <article class="faq-panel faq-panel--dark">
+              <h3>Мы в цифрах:</h3>
+              <p>
+                На сегодняшний день в нашей компании более 250 высококвалифицированных и заряженных,<br />
+                молодых специалистов, 6 офисов, распределенных в СПБ, Москве и на Кипре.<br />
+                Крутые офисы с самой современной техникой, вкусные снеки и разнообразные завтраки для энергии<br />
+                на весь день - все это для комфорта и продуктивности наших сотрудников.
+              </p>
+            </article>
+
+            <article class="faq-panel faq-panel--light faq-panel--final">
+              <h3>Философия работы:</h3>
+              <p>
+                Мы гордимся тем, что в нашей компании идеи и решения принимаются быстро и<br />
+                без лишних вертикальных согласований. Мы оперативно реагируем на изменения в индустрии<br />
+                и выделяем неограниченные бюджеты на развитие наших проектов.<br />
+                Благодаря этому мы остаемся одними из лидеров в высоко конкурентной сфере iGaming,<br />
+                входя в топ 10 по России и СНГ.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section section--contact" id="contact">
+        <div class="container">
+          <div class="contact-panel reveal">
+            <div class="contact-card">
+              <div class="contact-panel__copy">
+                <h2>
+                  <span>Оставляй свой отклик</span>
+                  <span>и мы с тобой свяжемся</span>
+                </h2>
+              </div>
+
+              <form class="contact-form" id="feedback-form" method="post" data-endpoint="https://example.invalid/">
+                <div class="contact-form__left">
+                  <input type="text" name="name" placeholder="Имя" required />
+                  <input type="text" name="surname" placeholder="Фамилия" />
+                  <input type="text" name="telegram" placeholder="@telegram" required />
+
+                  <label class="contact-check">
+                    <input type="checkbox" name="terms" value="yes" checked required />
+                    <span>Я соглашаюсь с условиями и даю свою согласие на обработку и использование моих персональных данных</span>
+                  </label>
+                  <label class="contact-check">
+                    <input type="checkbox" name="newsletter" value="yes" checked />
+                    <span>Я даю согласие на получение аналитики, кейсов и новостей от IT world</span>
+                  </label>
+
+                  <button class="contact-submit" type="submit">Отправить</button>
+                  <p class="form-status" id="form-status" aria-live="polite"></p>
+                </div>
+
+                <div class="contact-form__right">
+                  <div class="contact-phone" data-phone-field>
+                    <select class="contact-phone__select" name="phoneCountry" aria-label="Страна телефона" data-phone-country>
+                      <option value="RU" data-code="+7" data-pattern="(###) ###-##-##">Россия</option>
+                      <option value="KZ" data-code="+7" data-pattern="(###) ###-##-##">Казахстан</option>
+                      <option value="BY" data-code="+375" data-pattern="(##) ###-##-##">Беларусь</option>
+                      <option value="AM" data-code="+374" data-pattern="## ### ###">Армения</option>
+                      <option value="GE" data-code="+995" data-pattern="### ### ###">Грузия</option>
+                      <option value="KG" data-code="+996" data-pattern="### ### ###">Кыргызстан</option>
+                      <option value="UA" data-code="+380" data-pattern="(##) ###-##-##">Украина</option>
+                    </select>
+                    <span class="contact-phone__flag" data-phone-flag data-country="RU" aria-hidden="true"></span>
+                    <span class="contact-phone__arrow" aria-hidden="true"></span>
+                    <span class="contact-phone__code" data-phone-code>+7</span>
+                    <input type="hidden" name="phoneCode" value="+7" data-phone-code-input />
+                    <input class="contact-phone__input" type="tel" name="phone" inputmode="tel" autocomplete="tel" placeholder="(000) 000-00-00" required data-phone-input />
+                  </div>
+                  <textarea name="message" rows="4" placeholder="Опиши свой опыт работы"></textarea>
+                </div>
+              </form>
+
+              <aside class="contact-quote" aria-label="Комментарий HR">
+                <img class="contact-quote__avatar" src="assets/contact/alina-hr-bp.png" alt="" />
+                <div class="contact-quote__text">
+                  <strong>Алина HR-BP</strong>
+                  <span>Присоединяйся к нам!</span>
+                </div>
+                <span class="contact-quote__mark" aria-hidden="true">”</span>
+              </aside>
+            </div>
+
+            <div class="contact-brand brand brand--light">
+              <span class="brand__title">IT WORLD</span>
+              <span class="brand__subtitle">agency</span>
+            </div>
+
+            <a class="contact-link-card contact-link-card--hr" href="https://example.invalid/" target="_blank" rel="noopener">
+              <span class="contact-link-card__label">написать HR</span>
+              <span class="contact-link-card__value">@HRAlinaIT</span>
+              <img src="assets/contact/phone-icon.png" alt="" aria-hidden="true" />
+            </a>
+
+            <a class="contact-link-card contact-link-card--mail" href="mailto:employee@example.invalid" rel="noopener">
+              <span class="contact-link-card__label">написать</span>
+              <span class="contact-link-card__value">employee@example.invalid</span>
+              <img src="assets/contact/chat-icon.png" alt="" aria-hidden="true" />
+            </a>
+
+            <footer class="site-footer">
+              <p class="site-footer__copy">2025 digital-агентство IT-world ©</p>
+              <a href="#contact">СОУТ</a>
+              <a href="#contact">Политика обработки персональных данных</a>
+            </footer>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script defer src="scripts/reveal.js"></script>
+    <script defer src="scripts/stories-tape.js"></script>
+    <script defer src="scripts/phone-field.js"></script>
+    <script defer src="scripts/form-toast.js"></script>
+    <script defer src="scripts/feedback-form.js"></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>
